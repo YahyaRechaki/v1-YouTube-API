@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/637815551c9a659ceb8a700f
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Elzero",
+    "subscribedToChannel": "ElzeroWebSchool"
+}
+
+###
+DELETE http://localhost:3000/subscribers/6378153f1c9a659ceb8a700c
+
+###
+PATCH  http://localhost:3000/subscribers/637910938e6a52400f6a40f8
+Content-Type: application/json
+
+{
+    "name": "Osama"
+}
